@@ -4,6 +4,7 @@
 <p align="center">
 	<img src="img/framework.png" width="80%" />
 </p>
+This paper focuses on investigating the conversations starting from open-domain social chatting and then gradually transitioning to task-oriented purposes, and releases a large-scale dataset with detailed annotations for encouraging this research direction. To achieve this goal, this paper proposes a framework to automatically generate many dialogues without human involvement, in which any powerful open-domain dialogue generation model can be easily leveraged.
 
 ## Dependency
 Check the packages needed or simply run the command
