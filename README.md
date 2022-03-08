@@ -1,8 +1,8 @@
 # SalesBot: Transitioning from Chit-Chat to Task-Oriented Dialogues
 
-## TransferQA
+## Framework
 <p align="center">
-<img src="img/framework.pdf" width="80%" />
+	<img src="img/framework.png" width="80%" />
 </p>
 
 ## Dependency
@@ -27,7 +27,7 @@ python3 qa_inference.py --data_file selfchat/simulators_20.jsonl --output_file s
 ```console
 python3 combine_simulators.py simulators_intent.json
 ```
-* merge SGD
+* merge SGD:
 ```console
 # SGD_delex is the version preprocessed by "ACCENTOR: Adding Chit-Chat to Enhance Task-Oriented Dialogues"
 unzip SGD_delex
@@ -36,7 +36,7 @@ python3 collect_sgd_intent.py SGD_delex
 python3 combine_sgd.py merge_sgd_intent.json
 
 ```
-* transition
+* transition:
 ```console
 python3 transition.py combine_sgd.json
 python3 transition.py combine_simulators.json
