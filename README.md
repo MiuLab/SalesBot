@@ -43,4 +43,15 @@ python3 transition.py combine_sgd.json
 python3 transition.py combine_simulators.json
 ```
 
+## Citation
 
+Please cite our paper if you use SalesBot in your work:
+
+```bibtex
+@inproceedings{chiu2022salesbot,
+   title={{SalesBot}: Transitioning from Chit-Chat to Task-Oriented Dialogues},
+   author={Chiu, Ssu and Li, Maolin and Lin, Yen-Ting and Chen, Yun-Nung},
+   booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+   year={2022}
+}
+```
